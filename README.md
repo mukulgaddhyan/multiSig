@@ -1,7 +1,7 @@
 # multiSig
 This repository contains the optimized version of multiSig project.
-# **Note:- Middleware to verifyToken has been created and used only on 1 route i.e. Get Process By Id, for convinence of testing.
-# **We can still add it on all the routes without making any changes.
+**Note:- Middleware to verifyToken has been created and used only on 1 route i.e. Get Process By Id, for convinence of testing.
+**We can still add it on all the routes without making any changes.
 
 # Models:- 
 1. Users
