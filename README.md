@@ -28,6 +28,17 @@ This repository contains the optimized version of multiSig project.
 2. generateRandomLoginId - To generate a random login Id.
 3. addOwner - Add the owner to the commentsVisibleTo list.
 
+# How to check email getting triggered:-
+1. Visit https://ethereal.email/
+2. Click on create ethereal account
+3. Enter the generated username password in the code in utils file -> sendMail function.
+ auth: {
+                // TODO: replace `user` and `pass` values from <https://forwardemail.net>
+                user: "stephen.rodriguez54@ethereal.email",
+                pass: "gMHNBXcBnf3xXnkYdM",
+            },
+4. You can see the email getting triggered in the messages tab. 
+
 # Middlewares:-
 1. verifyToken - To verfy the token of a user.
 2. permission - To check for the persmission of a user, if he/she has been allowed by the creator to view the comments or not.
